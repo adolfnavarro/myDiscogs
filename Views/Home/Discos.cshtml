@@ -1,0 +1,35 @@
+﻿@* @{
+    ViewData["Title"] = "Home Page";
+} *@
+@* @Model List<RootInfoDisco>  *@
+
+<h1 class="titulo_pag">Discos</h1>
+
+
+
+<div class="row row-cols-4 row-cols-md-4 g-4">
+
+@foreach(var item in Model) {
+<div class="col">
+    <div class="card h-100" style="width: 18rem;">
+  <img src=@item.images[0].resource_url class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">@item.artists_sort</h5>
+    <h6 class="card-title">@item.title</h6>
+    <ul class="list-group list-group-flush">
+       <li class="list-group-item">País : @item.country</li>
+    <li class="list-group-item">Año : @item.year</li>
+    <li class="list-group-item">En venta : @item.num_for_sale</li>
+    <li class="list-group-item">Precio actual: <b>@item.price_mint EUR</b></li>
+    </ul>
+    
+  </div>
+      <div class="card-footer">
+          @* <small class="text-muted">Last updated 3 mins ago</small> *@
+      <a href=@item.uri class="btn btn-primary">Ir a Discogs</a>
+      </div>
+</div>
+</div>
+}
+
+</div>

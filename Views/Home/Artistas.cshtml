@@ -1,0 +1,43 @@
+﻿@* @{
+    ViewData["Title"] = "Home Page";
+} *@
+@model List<RootGetArtist> 
+
+<h1 class="titulo_pag">Artista</h1>
+
+@foreach(var item in Model) {
+<div class="card mb-3"  style="max-width: 80%vw ;height:30vh">
+  <div class="row g-0" >
+    <div class="col-md-4">
+
+        @if(@item.images[0].uri==null)
+        {
+          <img src=@item.images[1].uri class="img-fluid rounded-start"  alt="..." style="height:30vh">
+        }
+        else{
+          <img src=@item.images[0].uri class="img-fluid rounded-start"  alt="..." style="height:30vh">
+        }
+
+
+    </div>
+    <div class="col-md-8" >
+ 
+      <div class="card-body" >
+      <h5 class="card-title">@item.name</h5>
+      <div class="card overflow-auto" style="max-height: 20vh">
+      <p class="card-text"    >@item.profile</p>
+      </div>  
+
+      </div>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+  </div>
+        <center>
+ @if(@item.tieneVideos)
+        { 
+<iframe width="448" height="255" src="https://www.youtube.com/embed/@item.link_video" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" style="background-color:white;padding:5px"allowfullscreen></iframe>
+        }
+
+</center>
+}

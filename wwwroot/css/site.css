@@ -1,0 +1,50 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+.mensajeBienvenida
+{
+  color:white;margin-top:40vh;     text-shadow: -1px 0 #198754, 0 1px #414D68, 1px 0 #414D68, 0 -1px #414D68, -2px 2px 0 #414D68, 2px 2px 0 #414D68, 1px 1px #414D68, 2px 2px #414D68, 3px 3px #414D68, 4px 4px #414D68, 5px 5px #414D68; 
+}
+
+body {
+  margin-bottom: 60px;
+
+}
+.titulo_pag
+{
+  color: azure;
+  text-align: center;
+  text-decoration: underline  azure;
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+.vinilo
+{
+  min-height: 95vh;
+}
+body
+{
+  background-image:url('https://r4.wallpaperflare.com/wallpaper/354/184/885/vinyl-close-up-gray-surface-wallpaper-927182503d76de8b9a88e26500c899b2.jpg');
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+}
+header nav
+{
+  background-color: #333!important;
+  color:azure
+}
