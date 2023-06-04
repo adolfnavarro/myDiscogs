@@ -55,19 +55,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Adolf\\.nuget\\packages\\": {}
+    "C:\\Users\\Ryzen 5\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\DAW\\Entorns Projecte final 1r\\myDiscogs\\ProjectAdolf.csproj",
+      "projectUniqueName": "C:\\Programacion\\Proyectos C#\\myDiscogs\\ProjectAdolf.csproj",
       "projectName": "ProjectAdolf",
-      "projectPath": "D:\\DAW\\Entorns Projecte final 1r\\myDiscogs\\ProjectAdolf.csproj",
-      "packagesPath": "C:\\Users\\Adolf\\.nuget\\packages\\",
-      "outputPath": "D:\\DAW\\Entorns Projecte final 1r\\myDiscogs\\obj\\",
+      "projectPath": "C:\\Programacion\\Proyectos C#\\myDiscogs\\ProjectAdolf.csproj",
+      "packagesPath": "C:\\Users\\Ryzen 5\\.nuget\\packages\\",
+      "outputPath": "C:\\Programacion\\Proyectos C#\\myDiscogs\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Adolf\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Ryzen 5\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -75,6 +75,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\sdk\\7.0.302\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -109,6 +110,24 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[6.0.16, 6.0.16]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[6.0.16, 6.0.16]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[6.0.16, 6.0.16]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[6.0.16, 6.0.16]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -117,7 +136,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }

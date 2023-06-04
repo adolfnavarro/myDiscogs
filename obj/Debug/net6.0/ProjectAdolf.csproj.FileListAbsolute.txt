@@ -54,3 +54,36 @@ D:\DAW\Entorns Projecte final 1r\myDiscogs\obj\Debug\net6.0\refint\ProjectAdolf.
 D:\DAW\Entorns Projecte final 1r\myDiscogs\obj\Debug\net6.0\ProjectAdolf.pdb
 D:\DAW\Entorns Projecte final 1r\myDiscogs\obj\Debug\net6.0\ProjectAdolf.genruntimeconfig.cache
 D:\DAW\Entorns Projecte final 1r\myDiscogs\obj\Debug\net6.0\ref\ProjectAdolf.dll
+C:\Programacion\Proyectos C#\myDiscogs\bin\Debug\net6.0\appsettings.Development.json
+C:\Programacion\Proyectos C#\myDiscogs\bin\Debug\net6.0\appsettings.json
+C:\Programacion\Proyectos C#\myDiscogs\bin\Debug\net6.0\ProjectAdolf.staticwebassets.runtime.json
+C:\Programacion\Proyectos C#\myDiscogs\bin\Debug\net6.0\ProjectAdolf.exe
+C:\Programacion\Proyectos C#\myDiscogs\bin\Debug\net6.0\ProjectAdolf.deps.json
+C:\Programacion\Proyectos C#\myDiscogs\bin\Debug\net6.0\ProjectAdolf.runtimeconfig.json
+C:\Programacion\Proyectos C#\myDiscogs\bin\Debug\net6.0\ProjectAdolf.dll
+C:\Programacion\Proyectos C#\myDiscogs\bin\Debug\net6.0\ProjectAdolf.pdb
+C:\Programacion\Proyectos C#\myDiscogs\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Programacion\Proyectos C#\myDiscogs\obj\Debug\net6.0\ProjectAdolf.csproj.AssemblyReference.cache
+C:\Programacion\Proyectos C#\myDiscogs\obj\Debug\net6.0\ProjectAdolf.GeneratedMSBuildEditorConfig.editorconfig
+C:\Programacion\Proyectos C#\myDiscogs\obj\Debug\net6.0\ProjectAdolf.AssemblyInfoInputs.cache
+C:\Programacion\Proyectos C#\myDiscogs\obj\Debug\net6.0\ProjectAdolf.AssemblyInfo.cs
+C:\Programacion\Proyectos C#\myDiscogs\obj\Debug\net6.0\ProjectAdolf.csproj.CoreCompileInputs.cache
+C:\Programacion\Proyectos C#\myDiscogs\obj\Debug\net6.0\ProjectAdolf.MvcApplicationPartsAssemblyInfo.cache
+C:\Programacion\Proyectos C#\myDiscogs\obj\Debug\net6.0\ProjectAdolf.RazorAssemblyInfo.cache
+C:\Programacion\Proyectos C#\myDiscogs\obj\Debug\net6.0\ProjectAdolf.RazorAssemblyInfo.cs
+C:\Programacion\Proyectos C#\myDiscogs\obj\Debug\net6.0\staticwebassets\msbuild.ProjectAdolf.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Programacion\Proyectos C#\myDiscogs\obj\Debug\net6.0\staticwebassets\msbuild.build.ProjectAdolf.props
+C:\Programacion\Proyectos C#\myDiscogs\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.ProjectAdolf.props
+C:\Programacion\Proyectos C#\myDiscogs\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.ProjectAdolf.props
+C:\Programacion\Proyectos C#\myDiscogs\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Programacion\Proyectos C#\myDiscogs\obj\Debug\net6.0\staticwebassets.build.json
+C:\Programacion\Proyectos C#\myDiscogs\obj\Debug\net6.0\staticwebassets.development.json
+C:\Programacion\Proyectos C#\myDiscogs\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Programacion\Proyectos C#\myDiscogs\obj\Debug\net6.0\scopedcss\bundle\ProjectAdolf.styles.css
+C:\Programacion\Proyectos C#\myDiscogs\obj\Debug\net6.0\scopedcss\projectbundle\ProjectAdolf.bundle.scp.css
+C:\Programacion\Proyectos C#\myDiscogs\obj\Debug\net6.0\ProjectAdolf.csproj.CopyComplete
+C:\Programacion\Proyectos C#\myDiscogs\obj\Debug\net6.0\ProjectAdolf.dll
+C:\Programacion\Proyectos C#\myDiscogs\obj\Debug\net6.0\refint\ProjectAdolf.dll
+C:\Programacion\Proyectos C#\myDiscogs\obj\Debug\net6.0\ProjectAdolf.pdb
+C:\Programacion\Proyectos C#\myDiscogs\obj\Debug\net6.0\ProjectAdolf.genruntimeconfig.cache
+C:\Programacion\Proyectos C#\myDiscogs\obj\Debug\net6.0\ref\ProjectAdolf.dll

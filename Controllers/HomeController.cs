@@ -29,7 +29,7 @@ public class HomeController : Controller
         }
         catch (System.Exception)
         {
-            return View("---     Demasiadas consultas consecutivas a Discogs. Espere 25 segundos y vuelva a recargar la pàgina porfavor       ---");
+            return View("---     Demasiadas consultas consecutivas a Discogs. Espere 25 segundos y vuelva a recargar la pï¿½gina porfavor       ---");
             throw;
         }
         
@@ -119,8 +119,41 @@ public RootGetArtist ConsultarArtista(int IdArtista)
         infoDisco.price_mint=consultarPrecio(Iddisco);
         listaDiscos.Add(infoDisco);
     }
+    listaDiscos=OrdenarColeccionPorPrecio(listaDiscos);
     return listaDiscos;
     }
+
+    public List<RootInfoDisco> OrdenarColeccionPorPrecio(List<RootInfoDisco> listaDiscosDesordenada)
+    {
+        List<RootInfoDisco> listaOrdenada =new List<RootInfoDisco>();
+        
+        int cantidadDiscos=listaDiscosDesordenada.Count();
+        for (int i = 0; i < cantidadDiscos; i++)
+        {   
+            RootInfoDisco disco=discoConPrecioMayor(listaDiscosDesordenada);
+            listaOrdenada.Add(disco);
+            listaDiscosDesordenada.Remove(disco);
+
+        }
+        return listaOrdenada;
+
+    }
+    public RootInfoDisco discoConPrecioMayor(List<RootInfoDisco> listaConDiscos)
+    {   
+        RootInfoDisco discoConPrecioMayor=listaConDiscos[0]; 
+        for (int i = 0; i < listaConDiscos.Count; i++)
+        {
+           if (listaConDiscos[i].price_mint>discoConPrecioMayor.price_mint)
+           {
+                discoConPrecioMayor=listaConDiscos[i];
+           }        
+        }       
+        return discoConPrecioMayor;
+    }
+    
+
+
+
 
 
     public async Task<IActionResult> Artistas()

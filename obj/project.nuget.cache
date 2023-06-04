@@ -1,10 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "f0iB0vknqS4FNqInzMtaEzd+THjAxWfe4P2KfnQ6dW5Gh4wOG+0DHQ6rB4sEA5+bPy+cpIMslqjSniqNgpBO4A==",
+  "dgSpecHash": "rCXc/EnadRT7AQWHYNy1V5V1I3T1BCSmFRyxdMm8P9J9agaTXEI8avDbbR5fokvlQEXObejvkOgqAYC1EDtF3g==",
   "success": true,
-  "projectFilePath": "D:\\DAW\\Entorns Projecte final 1r\\myDiscogs\\ProjectAdolf.csproj",
+  "projectFilePath": "C:\\Programacion\\Proyectos C#\\myDiscogs\\ProjectAdolf.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Adolf\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+    "C:\\Users\\Ryzen 5\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\Ryzen 5\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.16\\microsoft.netcore.app.ref.6.0.16.nupkg.sha512",
+    "C:\\Users\\Ryzen 5\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.16\\microsoft.windowsdesktop.app.ref.6.0.16.nupkg.sha512",
+    "C:\\Users\\Ryzen 5\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.16\\microsoft.aspnetcore.app.ref.6.0.16.nupkg.sha512",
+    "C:\\Users\\Ryzen 5\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.16\\microsoft.netcore.app.host.win-x64.6.0.16.nupkg.sha512"
   ],
   "logs": []
 }
